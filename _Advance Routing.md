@@ -25,7 +25,39 @@
 |      |                 |          | 0.0.0.3      |
 
 <br>
+
+| BitLen |       |
+| ---    | ---   |
+| 42     |       |
+| 1800   |       |
+| 365    |       |
+| 980    |       |
+| 112    |       |
+
 <br>
+
+### Design a network for teleperformance.com with 720 users. Use the available IP address space 10.42.0.0 /16
+
+> C:
+
+<br> 
+
+> S:
+
+<br>
+
+> I:  
+
+<br>
+
+| teleperformance.com     | IPv4  |
+| ---                     | ---   |
+| Network                 |       |
+| First Valid             |       |
+| Last Valid              |       |
+| Last IP/Broadcast       |       |
+| ---                     | ---   |
+| NOT teleperformance.com |       |
 
 ---
 &nbsp;
