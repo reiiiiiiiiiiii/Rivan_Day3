@@ -224,4 +224,20 @@ L        192.168.100.195/32 is directly connected, Loopback1
 ---
 &nbsp;
 
+## Switching vs Routing
+Switching - forwards data based on L2 information (MAC Address)
+- Linux: arp -v
+- Windows: arp -a
+- Cisco: show arp
+
+Routing - forwards data based on L3 information (IP Address)
+- Linux: netstat -rn
+- Windows: route print
+- Cisco: show ip interface brief
+
+
+### Job Interview Questions for L1/L2 NOC-MSP postions.
+Interpret the components of routing table:
+a routing is database/fib: forward information base that is used by routing devices, path to take.
+to go to remote networks:
 
