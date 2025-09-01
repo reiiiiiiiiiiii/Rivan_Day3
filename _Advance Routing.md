@@ -13,6 +13,23 @@
 
 <br>
 
+| CIDR | SUBNET MASK     | RIVAN    | WILDCARD     |
+| ---  | ---             | ---      | ---          |
+| /18  |                 |          |              |
+| /29  |                 |          |              |
+|      | 255.255.224.0   |          |              |
+|      | 255.255.255.254 |          |              |
+|      |                 | 2nd, 4i  |              |
+|      |                 | 4th, 32i |              |
+|      |                 |          | 0.31.255.255 |
+|      |                 |          | 0.0.0.3      |
+
+<br>
+<br>
+
+---
+&nbsp;
+
 ## 🎯 Review
 
 ### 1. What is the reason for the error?
@@ -130,3 +147,46 @@ L        10.1.4.6/32 is directly connected, Ethernet1/1
 &nbsp;
 ---
 &nbsp;
+
+### 9. What is the destination MAC address of a broadcast frame?
+  - [ ] __A.__ 00:00:0c:07:ac:01
+  - [ ] __B.__ ff:ff:ff:ff:ff:ff
+  - [ ] __C.__ 33:2e:08:00:00:0c
+  - [ ] __D.__ 00:00:0c:43:2e:08
+  - [ ] __E.__ 00:00:0c:ff:ff:ff
+
+&nbsp;
+---
+&nbsp;
+
+### 10. Based on the diagram, what is the subnet mask for VLAN 100?
+~~~
+Gateway of last resort is not set
+      10.0.0.0/8 is variably subnetted, 6 subnets, 3 masks
+C        10.1.4.4/30 is directly connected, Ethernet1/1
+L        10.1.4.6/32 is directly connected, Ethernet1/1
+C        10.2.1.0/24 is directly connected, Vlan10
+L        10.2.1.1/32 is directly connected, Vlan10
+C        10.2.2.0/24 is directly connected, Vlan20
+L        10.2.2.1/32 is directly connected, Vlan20
+      192.168.1.0/24 is variably subnetted, 2 subnets, 2 masks
+C        192.168.1.128/27 is directly connected, Vlan100
+L        192.168.1.129/32 is directly connected, Vlan100
+      192.168.100.0/24 is variably subnetted, 2 subnets, 2 masks
+C        192.168.100.192/29 is directly connected, Loopback1
+L        192.168.100.195/32 is directly connected, Loopback1
+~~~
+
+  - [ ] __A.__ 255.255.255.0
+  - [ ] __B.__ 255.255.255.252
+  - [ ] __C.__ 255.255.255.224
+  - [ ] __D.__ 255.255.255.255
+  - [ ] __E.__ 255.255.255.248
+
+<br>
+<br>
+
+---
+&nbsp;
+
+
