@@ -230,6 +230,15 @@ Switching - forwards data based on L2 information (MAC Address)
 - Windows: arp -a
 - Cisco: show arp
 
+Terms:
+- ARP
+- ARP Request
+- ARP Reply
+- Unknown Unicast
+- Known Unicast
+- L2 Forward Operations (Unchanged MAC)
+- L3 Forward Operations (Change MAC)
+
 Routing - forwards data based on L3 information (IP Address)
 - Linux: netstat -rn
 - Windows: route print
