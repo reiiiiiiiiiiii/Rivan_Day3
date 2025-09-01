@@ -236,6 +236,7 @@ Routing - forwards data based on L3 information (IP Address)
 - Cisco: show ip interface brief
 
 
+
 ### Job Interview Questions for L1/L2 NOC-MSP postions.
 Interpret the components of routing table:
 a routing is database/fib: forward information base that is used by routing devices, path to take.
