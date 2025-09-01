@@ -60,9 +60,17 @@ ip dhcp pool mainpool
 
 ### 4. Design a network for Cognizant.com with 4720 potential users. Use the IP address space 10.42.0.0 /16
 
-C:
-S:
-I:
+> C:
+
+<br> 
+
+> S:
+
+<br>
+
+> I:  
+
+<br>
 
 | Cognizant.com     | IPv4  |
 | ---               | ---   |
