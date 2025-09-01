@@ -81,3 +81,52 @@ ip dhcp pool mainpool
 | ---               | ---   |
 | NOT Cognizant.com |       |
 
+
+&nbsp;
+---
+&nbsp;
+
+### 5. Which goal is achieved by the implementation of private IPv4 addressing on a network?
+  - [ ] __A.__ provides an added level of protection against Internet exposure
+  - [ ] __B.__ provides a reduction in size of the forwarding table on network routers
+  - [ ] __C.__ allows communication across the Internet to other private networks
+  - [ ] __D.__ allows servers and workstations to communicate across public network boundaries
+
+&nbsp;
+---
+&nbsp;
+
+### 6. Which two options are the best reasons to use an IPV4 private IP space? (Choose two.)
+  - [ ] __A.__ to enable intra-enterprise communication
+  - [ ] __B.__ to implement NAT
+  - [ ] __C.__ to connect applications
+  - [ ] __D.__ to conserve global address space
+  - [ ] __E.__ to manage routing overhead
+
+&nbsp;
+---
+&nbsp;
+
+### 7. Which component of an Ethernet frame is used to notify a host that traffic is coming?
+  - [ ] __A.__ Start of Frame Delimiter
+  - [ ] __B.__ Type Field
+  - [ ] __C.__ Preamble
+  - [ ] __D.__ Data Field
+
+&nbsp;
+---
+&nbsp;
+
+### 8. Based on the diagram below, what command was entered on the device's Ethernet1/1 interface that registered the following entry to its routing table.
+~~~
+C        10.1.4.4/30 is directly connected, Ethernet1/1
+L        10.1.4.6/32 is directly connected, Ethernet1/1
+~~~
+  - [ ] __A.__ `router(config-if)# ip address 10.1.4.4 255.255.255.252`
+  - [ ] __B.__ `router(config-if)# ip address 10.1.4.4 255.255.255.255`
+  - [ ] __C.__ `router(config-if)# ip address 10.1.4.6 255.255.255.252`
+  - [ ] __D.__ `router(config-if)# ip address 10.1.4.6 255.255.255.255`
+
+&nbsp;
+---
+&nbsp;
