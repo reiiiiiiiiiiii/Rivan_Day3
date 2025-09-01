@@ -54,7 +54,22 @@ ip dhcp pool mainpool
 | 5   | 192.168.100.203 /27 |                    | E   | 10.184.0.1 - 10.187.255.255       |
 | 6   | 192.168.100.195 /28 |                    | F   | 172.16.64.1 - 172.16.95.255       |
 
+&nbsp;
+---
+&nbsp;
 
+### 4. Design a network for Cognizant.com with 4720 potential users. Use the IP address space 10.42.0.0 /16
 
+C:
+S:
+I:
 
+| Cognizant.com     | IPv4  |
+| ---               | ---   |
+| Network           |       |
+| First Valid       |       |
+| Last Valid        |       |
+| Last IP/Broadcast |       |
+| ---               | ---   |
+| NOT Cognizant.com |       |
 
