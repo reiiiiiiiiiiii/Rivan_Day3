@@ -14,7 +14,6 @@
 &nbsp;
 
 ## Setup the Virtual Workspace
-### Create and Configure VMNets 15 & 16
 
 ### 1. On VMWare Workstation, go to `Edit` > `Virtual Network Editor..`
 
@@ -86,24 +85,28 @@
 ---
 &nbsp;
 
+### 8. Extract the `RSTHayup` 7zip file
+> [!NOTE]
+> The filename may be different.
+
+<br>
+
+![07_AccessRST](img/07.JPG)
+
+&nbsp;
+---
+&nbsp;
+
+### 9. Inside the RSTHayup directory, open the `.vmx` file.
+
+![08_AccessRST](img/08.JPG)
+
+&nbsp;
+---
+&nbsp;
 
 
 
-
-1. 
-- VMWare > Virtual Network Adapter
-- Add Network
-- Select VMNet15
-- Modify VMNet15 with the following:
-- Add another Network
-- Select VMNet16
-- Modify VMNet16 with the following:
-- Apply and Finish.
-
-
-2. Download and extract the _RSTHayupV4.7z file.
-
-3. Inside the _RSTHayupV4 directory, open the .vmx file.
 
 4. Power on the Virtual Machine
 > ![Note] If you do not create VMNets 15 & 16, _RSTHayupV4 VM will take a while in obtaining IP address for its ethernet interfaces.
