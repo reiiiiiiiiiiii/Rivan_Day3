@@ -121,9 +121,12 @@
 
 ![10_AccessRST](img/10.JPG)
 
-&nbsp;
+<br>
+<br>
 ---
 &nbsp;
+
+## Access the Virtual Machine
 
 ### 12. Login to the VM
 - Username: root  
@@ -196,7 +199,7 @@ Open the IP address on a browser.
 ---
 &nbsp;
 
-### 17. Power on all the devices at once.
+### 17. Power on all the devices at once. Select the `Play` Button on 'All Devices'
 
 <br>
 
@@ -206,9 +209,93 @@ Open the IP address on a browser.
 
 ![16_AccessRST](img/16.JPG)
 
+<br>
+<br>
+
+---
+&nbsp;
+
+## Access the Devices
+
+### 18. On SecureCRT, select `Script` > `Run..`
+
+<br>
+
+![17_AccessRST](img/17.JPG)
+
 &nbsp;
 ---
 &nbsp;
 
-### 18. 
+### 19. Choose the `autoconnect.py` file from the repository. Then, enter the IP address of the RSTHayup Virtual Machine (In this case, 208.8.8.129).
+
+<br>
+
+![18_AccessRST](img/18.JPG)
+
+&nbsp;
+---
+&nbsp;
+
+### 20. We are running the RSTvX Lab, so choose `1`
+
+<br>
+
+![19_AccessRST](img/19.JPG)
+
+<br>
+
+Simply wait until SecureCRT access all the devices via Telnet.
+
+&nbsp;
+---
+&nbsp;
+
+## Optional Features
+
+### 21. To send commands to all devices at one, select `View` > `Command Window`
+
+<br>
+
+![20_AccessRST](img/20.JPG)
+
+<br>
+
+&nbsp;
+---
+&nbsp;
+
+### 22. `Right Click` the command window > `Send Commands to` > `All Sessions`
+> [!TIP] 
+> CTRL + SHIFT + S
+
+<br>
+
+![21_AccessRST](img/21.JPG)
+
+<br>
+
+&nbsp;
+---
+&nbsp;
+
+### 23. Now access Global Configuration mode on all devices at the same time by entering commands on the command window.
+> [!NOTE]
+> When configuring devices one-by-one, make sure to not enter it on the command window.
+
+<br>
+
+The password and secret for devices is: `pass`
+
+<br>
+
+![22_AccessRST](img/22.JPG)
+
+<br>
+
+![23_AccessRST](img/23.JPG)
+
+<br>
+
+![24_AccessRST](img/24.JPG)
 
