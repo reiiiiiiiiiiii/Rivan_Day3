@@ -7,18 +7,85 @@
 - __RSTHayup VM__
 - Downloaded Repository __Rivan_Day3__
 
-&nbsp;
+<br>
+<br>
+
 ---
 &nbsp;
 
 ## Setup the Virtual Workspace
 ### Create and Configure VMNets 15 & 16
 
-1. On VMWare Workstation, go to `Edit` > `Virtual Network Editor..`
+1. On VMWare Workstation, go to `Edit` > __`Virtual Network Editor..`__
 
 <br>
 
-![00](img/00.jpg)
+![00_AccessRST](img/00.JPG)
+
+&nbsp;
+---
+&nbsp;
+
+2. Select __Add Network..__
+
+<br>
+
+![01_AccessRST](img/01.JPG)
+
+&nbsp;
+---
+&nbsp;
+
+3. Add __VMnet15__
+
+![02_AccessRST](img/02.JPG)
+
+&nbsp;
+---
+&nbsp;
+
+4. Edit VMnet15 with the following settings:
+- VMnet Information: __Host-only__
+- [x] Connect a host virtual adapter to this network
+- [x] Use local __DHCP service__ to distribute IP address to VMs
+- Subnet IP: 10.255.10.0
+- Subnet Mask: 255.255.255.0
+
+![03_AccessRST](img/03.JPG)
+
+&nbsp;
+---
+&nbsp;
+
+5. Now __Add Network..__ again
+
+![04_AccessRST](img/04.JPG)
+
+&nbsp;
+---
+&nbsp;
+
+6. Add __VMnet16__
+
+![05_AccessRST](img/05.JPG)
+
+&nbsp;
+---
+&nbsp;
+
+7. Edit VMnet16 with the following settings:
+- VMnet Information: __Host-only__
+- [x] Connect a host virtual adapter to this network
+- [x] Use local __DHCP service__ to distribute IP address to VMs
+- Subnet IP: 10.69.255.0
+- Subnet Mask: 255.255.255.248
+
+![06_AccessRST](img/06.JPG)
+
+&nbsp;
+---
+&nbsp;
+
 
 
 
