@@ -106,7 +106,7 @@
 &nbsp;
 
 ### 10. Power on the Virtual Machine
-> ![NOTE]
+> [!NOTE]
 > If you do not create VMNets 15 & 16, RSTHayup VM will take a while in obtaining IP address for its ethernet interfaces.
 
 ![09_AccessRST](img/09.JPG)
@@ -115,7 +115,9 @@
 ---
 &nbsp;
 
-### 10. Select `I copied it`
+### 11. Select `I copied it`
+
+<br>
 
 ![10_AccessRST](img/10.JPG)
 
@@ -123,7 +125,7 @@
 ---
 &nbsp;
 
-### 11. Login to the VM
+### 12. Login to the VM
 - Username: root  
 - Password: C1sc0123  
 
@@ -131,7 +133,7 @@
 ---
 &nbsp;
 
-### 12. Delete the Firewall
+### 13. Delete the Firewall
 Enter the following command:
 ~~~
 rm -rf /etc/udev/rules.d/70-persistent-net.rules
@@ -143,8 +145,10 @@ Then,
 reboot
 ~~~
 
-> ![TIP]
-> Press [TAB] to autocomplete.
+<br>
+
+> [!TIP]
+> Press `[TAB]` to autocomplete.
 > `Example: rm -rf /e[TAB]/u[TAB]/r[TAB]/7[TAB]`
 
 <br>
@@ -155,10 +159,56 @@ reboot
 ---
 &nbsp;
 
-8. Access the GUI
-After the VM has rebooted, it will recieve an IP address.
+### 14. Access the GUI
+After the VM has rebooted, it will recieve an IP address.  
+In this case, it is 208.8.8.129
+
+<br>
+
+![12_AccessRST](img/12.JPG)
+
+<br>
+
+Open the IP address on a browser.
+
+&nbsp;
+---
+&nbsp;
+
+### 15. Select `00 RSTvX: RouteSwitchTshoot Hayup Lab`
+
+<br>
+
+![13_AccessRST](img/13.JPG)
+
+&nbsp;
+---
+&nbsp;
+
+### 16. The first page will be the topology. To turn on the devices, select the `Devices` tab.
+
+<br>
+
+![14_AccessRST](img/14.JPG)
 
 
-Open the IP address on a browser
-- Select 00 RSTvX: RouteSwitchTshoot Hayup Lab
+&nbsp;
+---
+&nbsp;
+
+### 17. Power on all the devices at once.
+
+<br>
+
+![15_AccessRST](img/15.JPG)
+
+<br>
+
+![16_AccessRST](img/16.JPG)
+
+&nbsp;
+---
+&nbsp;
+
+### 18. 
 
