@@ -1,10 +1,29 @@
 
 # Access RSTHayup Labs
 
+### Prerequisites
+- Terminal Emulator (Putty or __SecureCRT__)
+- Type 2 Hypervisor (VMWare __Workstation__)
+- __RSTHayup VM__
+- Downloaded Repository __Rivan_Day3__
+
+&nbsp;
+---
+&nbsp;
+
 ## Setup the Virtual Workspace
+### Create and Configure VMNets 15 & 16
+
+1. On VMWare Workstation, go to `Edit` > `Virtual Network Editor..`
+
+<br>
+
+![00](img/00.jpg)
 
 
-1. Create and Configure VMNets 15 & 16
+
+
+1. 
 - VMWare > Virtual Network Adapter
 - Add Network
 - Select VMNet15
