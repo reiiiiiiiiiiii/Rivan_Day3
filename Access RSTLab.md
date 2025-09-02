@@ -227,7 +227,7 @@ Open the IP address on a browser.
 ---
 &nbsp;
 
-### 19. Choose the `autoconnect.py` file from the repository. Then, enter the IP address of the RSTHayup Virtual Machine (In this case, 208.8.8.129).
+### 19. Choose the `autocon.py` file from the repository. Then, enter the IP address of the RSTHayup Virtual Machine (In this case, 208.8.8.129).
 
 <br>
 
