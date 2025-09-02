@@ -16,7 +16,7 @@
 ## Setup the Virtual Workspace
 ### Create and Configure VMNets 15 & 16
 
-1. On VMWare Workstation, go to `Edit` > __`Virtual Network Editor..`__
+### 1. On VMWare Workstation, go to `Edit` > `Virtual Network Editor..`
 
 <br>
 
@@ -26,7 +26,7 @@
 ---
 &nbsp;
 
-2. Select __Add Network..__
+### 2. Select `Add Network..`
 
 <br>
 
@@ -36,7 +36,7 @@
 ---
 &nbsp;
 
-3. Add __VMnet15__
+### 3. Add `VMnet15`
 
 ![02_AccessRST](img/02.JPG)
 
@@ -44,7 +44,7 @@
 ---
 &nbsp;
 
-4. Edit VMnet15 with the following settings:
+### 4. Edit VMnet15 with the following settings:
 - VMnet Information: __Host-only__
 - [x] Connect a host virtual adapter to this network
 - [x] Use local __DHCP service__ to distribute IP address to VMs
@@ -57,7 +57,7 @@
 ---
 &nbsp;
 
-5. Now __Add Network..__ again
+### 5. Now `Add Network..` again
 
 ![04_AccessRST](img/04.JPG)
 
@@ -65,7 +65,7 @@
 ---
 &nbsp;
 
-6. Add __VMnet16__
+### 6. Add `VMnet16`
 
 ![05_AccessRST](img/05.JPG)
 
@@ -73,7 +73,7 @@
 ---
 &nbsp;
 
-7. Edit VMnet16 with the following settings:
+### 7. Edit VMnet16 with the following settings:
 - VMnet Information: __Host-only__
 - [x] Connect a host virtual adapter to this network
 - [x] Use local __DHCP service__ to distribute IP address to VMs
