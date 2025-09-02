@@ -105,27 +105,55 @@
 ---
 &nbsp;
 
+### 10. Power on the Virtual Machine
+> ![NOTE]
+> If you do not create VMNets 15 & 16, RSTHayup VM will take a while in obtaining IP address for its ethernet interfaces.
 
+![09_AccessRST](img/09.JPG)
 
+&nbsp;
+---
+&nbsp;
 
-4. Power on the Virtual Machine
-> ![Note] If you do not create VMNets 15 & 16, _RSTHayupV4 VM will take a while in obtaining IP address for its ethernet interfaces.
+### 10. Select `I copied it`
 
-5. Select 'I copied it!'
+![10_AccessRST](img/10.JPG)
 
-6. Login:
-- Username: root
-- Password: C1sc0123
+&nbsp;
+---
+&nbsp;
 
-7. Delete the Firewall
+### 11. Login to the VM
+- Username: root  
+- Password: C1sc0123  
 
+&nbsp;
+---
+&nbsp;
+
+### 12. Delete the Firewall
 Enter the following command:
+~~~
 rm -rf /etc/udev/rules.d/70-persistent-net.rules
+~~~
 
-Then, reboot.
+Then, 
 
-> ![Tip] Press [TAB] to autocomplete. Example: rm -rf /e[TAB]/u[TAB]/r[TAB]/7[TAB]
+~~~
+reboot
+~~~
 
+> ![TIP]
+> Press [TAB] to autocomplete.
+> `Example: rm -rf /e[TAB]/u[TAB]/r[TAB]/7[TAB]`
+
+<br>
+
+![11_AccessRST](img/11.JPG)
+
+&nbsp;
+---
+&nbsp;
 
 8. Access the GUI
 After the VM has rebooted, it will recieve an IP address.
