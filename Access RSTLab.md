@@ -46,8 +46,8 @@
 
 ### 4. Edit VMnet15 with the following settings:
 - VMnet Information: __Host-only__
-- [x] Connect a host virtual adapter to this network
-- [x] Use local __DHCP service__ to distribute IP address to VMs
+> - [x] Connect a host virtual adapter to this network
+> - [x] Use local __DHCP service__ to distribute IP address to VMs
 - Subnet IP: 10.255.10.0
 - Subnet Mask: 255.255.255.0
 
@@ -75,8 +75,8 @@
 
 ### 7. Edit VMnet16 with the following settings:
 - VMnet Information: __Host-only__
-- [x] Connect a host virtual adapter to this network
-- [x] Use local __DHCP service__ to distribute IP address to VMs
+> - [x] Connect a host virtual adapter to this network
+> - [x] Use local __DHCP service__ to distribute IP address to VMs
 - Subnet IP: 10.69.255.0
 - Subnet Mask: 255.255.255.248
 
