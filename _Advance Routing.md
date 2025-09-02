@@ -244,7 +244,11 @@ Routing - forwards data based on L3 information (IP Address)
 - Windows: route print
 - Cisco: show ip interface brief
 
+<br>
+<br>
 
+---
+&nbsp;
 
 ### Job Interview Questions for L1/L2 NOC-MSP postions.
 Interpret the components of routing table:
