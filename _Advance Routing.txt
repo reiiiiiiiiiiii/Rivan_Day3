@@ -722,6 +722,8 @@ conf t
   ip ospf priority 0
   end
 
+
+clear ip ospf process
 ---
 
 OSPF Hello Packet
